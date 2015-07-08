@@ -1,17 +1,41 @@
-.. Test documentation master file, created by
-   sphinx-quickstart on Wed Jul 08 18:41:35 2015.
-   You can adapt this file completely to your liking, but it should at least
-   contain the root `toctree` directive.
+Welcome to McGillX's How To Guide
+==========================================
 
-Welcome to Test's documentation!
-================================
+The main documentation for the site is organized into a couple sections:
 
-Contents:
+* :ref:`basics`
+* :ref:`course-monitoring`
+* :ref:`course-communications`
+
+.. _basics:
 
 .. toctree::
    :maxdepth: 2
+   :caption: Basics
+   
+   what_to_expect
+   navigation
+   
+.. _course-management:
+   
+.. toctree::
+   :maxdepth: 2
+   :glob:
+   :caption: Course Management
 
+   discussion_monitoring
+   get_class_results_to_a_problem
+   
+.. _course-communications:
 
+.. toctree::
+   :maxdepth: 2
+   :glob:
+   :caption: Course Communications
+   
+   annoucements
+   creating_course_discussion_threads
+   class_emails
 
 Indices and tables
 ==================
